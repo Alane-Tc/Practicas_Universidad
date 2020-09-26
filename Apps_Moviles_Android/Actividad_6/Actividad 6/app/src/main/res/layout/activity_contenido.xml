@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Contenido">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/Imagen_Logo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/texto_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre del paciente"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            />
+
+        <EditText
+            android:id="@+id/Motivo_Entrada"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Nombre del paciente"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorentrada"
+            android:layout_marginTop="280dp"
+            />
+
+        <TextView
+        android:id="@+id/texto_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motivo De La Consulta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        />
+
+        <CheckBox
+            android:id="@+id/Laboratorio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="380dp"
+            android:text="Laboratorio"
+             />
+        <CheckBox
+            android:id="@+id/RayosX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="410dp"
+            android:text="RayosX"
+            />
+        <CheckBox
+            android:id="@+id/C_General"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="440dp"
+            android:text="Consulta General"
+            />
+        <CheckBox
+            android:id="@+id/Analisis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="470dp"
+            android:text="Analisis"
+            />
+
+        <Button
+            android:id="@+id/Bnt_Confirmacion"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Confirmar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="620dp"
+            android:background="@color/colorBoton"
+            />
+
+        <Spinner
+            android:id="@+id/sp_option"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginTop="505dp"
+            />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="590dp"
+            />
+
+
+    </RelativeLayout>
+</FrameLayout>
