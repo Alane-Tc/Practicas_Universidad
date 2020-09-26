@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/product_iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/batman"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:id="@+id/product_ib"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/product_ropa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/spidy2" />
+
+    <Button
+        android:id="@+id/product_ropa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_iv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="COMPRAR" />
+
+    <Button
+        android:id="@+id/Btn_PrecioRopa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_ropa"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="2dp"
+        android:text="PRECIO" />
+
+    <Button
+        android:id="@+id/Calcetas_boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_iv"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="288dp"
+        android:layout_marginEnd="5dp"
+        android:text="COMPRAR" />
+
+    <Button
+        android:id="@+id/btn_RopaSpidy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Calcetas_boton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="2dp"
+        android:text="PRECIO" />
+
+    <TextView
+        android:id="@+id/product_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:text="Total $0.00"/>
+
+</RelativeLayout>
