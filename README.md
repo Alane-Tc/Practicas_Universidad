@@ -15,5 +15,5 @@ Mis practicas De Mi Universidad
 
 ------------
 
-> "Si les esto comeme los huevos" - Auronplay
+> "Si les esto cómeme los huevos" - Auronplay
 
