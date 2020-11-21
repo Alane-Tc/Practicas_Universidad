@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="385eb6f9-af08-4577-befd-2ce17f393fb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iaRi1VB5k8Dlnp7QXqTjBerwGg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="tecmilenio.alantamez.Main" />
+      <module name="Actividad8" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="385eb6f9-af08-4577-befd-2ce17f393fb1" name="Default Changelist" comment="" />
+      <created>1602143846401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602143846401</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1602455146156">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.689@0.0.1366.738" timestamp="1602455146156" />
+    <state x="1800" y="116" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1280.689@1366.0.1280.689" timestamp="1602455098845" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1602393282123" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom" timestamp="1603759480767">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="289" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1280.689@0.0.1366.738" timestamp="1603075748112" />
+    <state width="1323" height="199" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603759480767" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center" timestamp="1603759480767">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="289" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1280.689@0.0.1366.738" timestamp="1603075748112" />
+    <state width="1323" height="199" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1603759480767" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left" timestamp="1603759480766">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="289" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1280.689@0.0.1366.738" timestamp="1603075748112" />
+    <state width="1323" height="199" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1603759480766" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right" timestamp="1603759480767">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="289" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1280.689@0.0.1366.738" timestamp="1603075748112" />
+    <state width="1323" height="199" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1603759480767" />
+    <state x="97" y="0" key="new project wizard" timestamp="1603917945506">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="97" y="0" key="new project wizard/0.0.1366.738/1366.0.1280.689@0.0.1366.738" timestamp="1602455148423" />
+    <state x="1457" y="0" key="new project wizard/0.0.1366.738/1366.0.1280.689@1366.0.1280.689" timestamp="1602455113462" />
+    <state x="97" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1603917945506" />
+  </component>
+</project>
