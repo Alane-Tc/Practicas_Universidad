@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Calcular Área y Perímetro Del Triángulo</title>
+    </head>
+    <body>
+        <div align="center">
+            <p th:text="${session.mySessionAttribute}" th:unless="${session == null}">[...]</p>
+            <h1>Actividad 12</h1>
+            <a href="new">Hacer Un Nuevo Calculo Triángulo</a>
+            <br/><br/>
+            <table border="1" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Figura ID</th>
+                        <th>Base</th>
+                        <th>Altura</th>
+                        <th>Resultado Área</th>
+                        <th>Resultado Perímetro</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr th:each="product : ${listProducts}">
+                        <td th:text="${product.id}">ID</td>
+                        <td th:text="${product.Base}">Base</td>
+                        <td th:text="${product.Altura}">Altura</td>
+                        <td th:text="${product.resultado}">Resultado Área</td>
+                        <td th:text="${product.resultPerimeter}">Resultado Perimetro</td>
+                        <td>
+                           <!--<a th:href="@{'/edit/' + ${product.id}}">Edit</a>-->
+                            <!--&nbsp;&nbsp;&nbsp;-->
+                            <a th:href="@{'/delete/' + ${product.id}}">Delete</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>    
+    </body>
+</html>
